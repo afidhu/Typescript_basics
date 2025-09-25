@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",            // works smoother with VS Code auto-import
+    "moduleResolution": "node",    // ensures proper module resolution
+    "esModuleInterop": true,       // <— add this
+    "allowSyntheticDefaultImports": true, // <— add this
+    "strict": true,
+    "jsx": "react-jsx",
+    "skipLibCheck": true,
+
+    // Good extras
+    "sourceMap": true,
+    "declaration": true,
+    "declarationMap": true,
+    "noUncheckedIndexedAccess": true,
+    "exactOptionalPropertyTypes": true
+  }
+}
